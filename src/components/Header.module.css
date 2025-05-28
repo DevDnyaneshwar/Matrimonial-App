@@ -1,0 +1,25 @@
+/* src/components/Header.module.css */
+.headerContainer {
+  background-color: #4CAF50; /* Example green */
+  padding: 15px 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerTitle {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.iconWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Space between icon and text */
+}
+
+.iconText {
+  font-size: 1.2rem;
+}
