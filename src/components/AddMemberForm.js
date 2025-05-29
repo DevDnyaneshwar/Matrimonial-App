@@ -55,7 +55,7 @@ const AddMemberForm = ({ isOpen, onClose, onAddMember, currentUserId }) => {
 
   const relations = [
     "Father", "Mother", "Brother", "Sister", "Uncle", "Aunt",
-    "Grandfather", "Grandmother", "Son", "Daughter", "Cousin", "Spouse", "Other"
+    "Grandfather", "Grandmother", "Cousin", "Other"
   ];
 
   return (
